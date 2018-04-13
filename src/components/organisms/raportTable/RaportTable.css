@@ -1,0 +1,18 @@
+.TableStatus {
+    margin-bottom: 0 !important;
+}
+
+.TableStatus:before {
+    margin-right: 10px;
+    display: inline-block;
+    width: 7px;
+    height: 7px;
+    content: '';
+    border-radius: 50%;
+    background: #f44336;
+}
+
+.TableStatusActive:before {
+    background: #4caf50;
+}
+

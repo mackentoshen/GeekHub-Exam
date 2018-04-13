@@ -1,0 +1,27 @@
+.HomePage {
+    padding: 30px 25px 25px 30px;
+    background: #282a38;
+    max-width: 100%;
+    width: calc(100% - 60px);
+    min-height: calc(100vh - 60px);
+    margin-left: 60px;
+}
+
+.HomePage h3 {
+    color: #0e1a35;
+    font-size: 48px;
+    font-weight: 500;
+    margin-bottom: 25px;
+}
+
+.HomePageFlex {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+
+.HomePage .container {
+    max-width: 1260px;
+    margin: 0;
+}

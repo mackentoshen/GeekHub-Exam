@@ -1,0 +1,10 @@
+.TotalSales{
+    width: 100%;
+    padding: 30px 35px 45px 35px;
+    background: #ffffff;
+    border: 1px solid rgba(132, 146, 175, 0.3);
+}
+
+.TotalSales-List{
+    padding: 65px 75px 40px;
+}

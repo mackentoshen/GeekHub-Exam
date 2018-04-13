@@ -1,0 +1,22 @@
+.Users-Section {
+    padding: 30px 25px 25px 30px;
+    background: #2a2c3b;
+    max-width: 100%;
+    width: calc(100vw - 60px);
+    min-height: calc(100vh - 60px);
+    margin-left: 60px;
+}
+
+.UsersHeader {
+    margin-bottom: 20px;
+    min-height: 60px;
+}
+
+.Users-Title{
+    font: 500 20px/14px Roboto;
+    color: white;
+}
+
+.Users-Title span{
+    color:#8492af;
+}

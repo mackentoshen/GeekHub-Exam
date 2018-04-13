@@ -1,0 +1,50 @@
+.HomeHeaderPanel {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.HomeHeaderPanel h3 {
+    font: 700 16px/20px Montserrat, serif;
+    color: #fff;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0;
+}
+
+.HomeHeaderPanel .CountStats {
+    display: flex;
+}
+
+.HomeHeaderPanel .ActiveStatus {
+    text-align: center;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    margin: 0 0 0 10px;
+    font-family: Montserrat, serif;
+}
+
+.HomeHeaderPanel .ActiveStatus span {
+    color: #5584ff;
+}
+
+.CountStats .ActiveStatus:before {
+    display: none;
+}
+
+.HomeHeaderPanel .DelayStatus {
+    width: 45px;
+    height: 45px;
+    background-color: #f83c7b;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 45px;
+    color: #ffffff;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+

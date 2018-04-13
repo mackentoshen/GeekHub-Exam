@@ -1,0 +1,16 @@
+.CardHeader {
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.CardHeaderTitle {
+    color: #fff;
+    font: 400 16px/20px Montserrat, serif;
+    margin-bottom: 5px;
+}
+
+.Counter {
+    color: #9ea3b4;
+    font: 400 12px/20px Montserrat, serif;
+}

@@ -1,0 +1,19 @@
+.SettingButton {
+    width: 16px;
+    height: 16px;
+    background: transparent;
+    position: relative;
+    border: none;
+}
+
+.SettingButton::before {
+    position: absolute;
+    display: block;
+    content: "\f013";
+    font-family: 'FontAwesome', sans-serif;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 16px;
+    color: #8492af;
+}

@@ -1,0 +1,69 @@
+.Messages-list {
+    padding: 10px 0 10px 5px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid rgba(132, 146, 175, 0.3);
+}
+
+.Read {
+    color: #fff;
+}
+
+.UnRead {
+    color: #2196f3;
+}
+
+.AvatarWrapper {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 10px;
+}
+
+.AvatarWrapper img {
+    width: 100%;
+    height: 100%;
+}
+
+.MessagesPersonName {
+    color: #fff;
+    font-family: Montserrat, serif;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.32px;
+    margin-bottom: 3px !important;
+}
+
+.MessagesPersonName p {
+    margin-bottom: 3px;
+}
+
+.MessagesTimeStatus {
+    font-family: Montserrat, serif;
+    font-weight: 400;
+    font-size: 10px;
+    margin-bottom: 3px !important;
+}
+
+.MessagesTimeStatus p {
+    margin-bottom: 3px;
+}
+
+.InfoAboutPerson {
+    display: flex;
+    justify-content: space-between;
+}
+
+.MessagesContent {
+    max-width: 220px;
+    color: #9ca1b2;
+    font: 400 10px Montserrat, serif;
+    margin-bottom: 5px;
+}
+
+.MessagesBlock {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}

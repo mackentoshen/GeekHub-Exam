@@ -1,0 +1,50 @@
+.HomePageList-Messages-Item{
+    padding: 29px 33px 28px;
+    border-top: 1px solid #d4d9e3;
+}
+
+.HomePageList-Messages-Item:nth-child(3){
+    background: #fff;
+}
+
+.HomePage-Profile{
+    background: #fff;
+    width: 47px;
+    height: 47px;
+    overflow: hidden;
+    border-radius: 50%;
+    margin-right: 25px;
+}
+
+.HomePage-Profile img{
+    width: 100%;
+}
+
+.HomePage-UserName{
+    font-weight: 500;
+    color:#0e1a35;
+    font-size: 14px;
+    line-height: 21px;
+}
+
+.HomePage-UserName span{
+    color:#8492af;
+    font-weight: 400;
+}
+
+.HomePage-UserName-text{
+    font:14px/21px Roboto;
+    color:#0e1a35;
+}
+
+.HomePageList-Messages-Icon{
+    margin-bottom: -7px;
+}
+
+.HomePageList-Messages-Icon img{
+    margin-right: 13px;
+}
+
+.HomePageList-Messages-Icon img:last-child{
+    margin-right: 0;
+}

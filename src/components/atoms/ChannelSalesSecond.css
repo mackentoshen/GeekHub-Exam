@@ -1,0 +1,29 @@
+.ChannelSalesSecond{
+    width: 190px;
+    height: 190px;
+    margin-right: 30px;
+}
+
+.SalesInfo h5{
+    font:700 36px/36px Roboto;
+    color:#8492af;
+    letter-spacing: 1px;
+}
+
+.SalesInfo p{
+    font:400 20px/20px Roboto;
+    color:#8492af;
+}
+
+.CircleWrapChannelSecond{
+    position: relative;
+}
+
+.CircleWrapChannelSecond span{
+    position: absolute;
+    top: 50%;
+    left:42%;
+    transform: translate(-50%, -50%);
+    font:500 44px Roboto;
+    color:#f83c7b;
+}

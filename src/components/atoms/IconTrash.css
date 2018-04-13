@@ -1,0 +1,19 @@
+.IconTrash{
+    border:1px solid #dadee7;
+    border-radius: 50%;
+    background: transparent;
+    width: 50px;
+    height:50px;
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.IconTrash .fa{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+    color:#8492af;
+    font-size: 26px;
+}

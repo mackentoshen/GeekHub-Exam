@@ -1,0 +1,14 @@
+.TaskName {
+    width: 47px;
+    height: 47px;
+    border-radius: 50%;
+    text-align: center;
+    background-color: #5584ff;
+    line-height: 47px;
+    font-size: 24px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #fff;
+    margin-right: 25px;
+    transition: all .6s;
+}

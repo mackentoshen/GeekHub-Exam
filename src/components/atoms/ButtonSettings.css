@@ -1,0 +1,7 @@
+.ButtonSettings {
+    display: inline-block;
+    width: 7px;
+    height: 33px;
+    background: url(../../assets/img/Options.png) no-repeat;
+    border: none;
+}

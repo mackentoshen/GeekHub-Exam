@@ -1,0 +1,327 @@
+.react-bs-table {
+    margin: 0 auto!important;
+    width: 100%;
+}
+
+.react-bs-table td {
+    position: relative;
+    background-color: #3a3e52;
+    color: #ffffff;
+    padding: 10px 5px;
+    vertical-align: middle;
+}
+
+.ProjectsWrap p {
+    margin-bottom: 0;
+}
+
+.DeveloperInfo p {
+    margin-bottom: 0 !important;
+}
+
+.DeadlineWrap {
+    margin-bottom: 0;
+}
+
+.ProjectsTableTableCell p {
+    margin-bottom: 0;
+}
+
+.table td {
+    border-top: none;
+}
+
+.react-bs-table th {
+    color: #9ea3b4;
+    font-size: 16px;
+    padding-left: 35px;
+}
+
+.ProjectsTable-Body {
+    border-collapse:separate;
+    border-spacing:  0 25px ;
+}
+
+.ProjectsTable-Body tr {
+    height: 40px !important;
+}
+
+.LineTitle {
+    position: absolute;
+    display: block;
+    width: 4px;
+    height: 100%;
+    left: 0;
+    top: 0;
+    bottom: 0;
+}
+
+.ProjectsWrap {
+    padding-left: 35px;
+}
+
+.ProjectsWrap .TitleProject {
+    margin-bottom: 5px;
+}
+
+.ProjectsWrap .ProjectCompany {
+    color: #9ea3b4;
+    font-size: 14px;
+}
+
+.ValueProject {
+    text-align: center;
+}
+
+.ProjectWrap {
+    margin-left: 35px;
+}
+
+.ProjectWrap .DeadlineProject {
+    margin-bottom: 5px;
+}
+
+.ProjectWrap .TimesToLeft {
+    color: #9ea3b4;
+    font-size: 14px;
+}
+
+.ProjectWrap p {
+    text-align: left;
+}
+
+.ProgressWrapper {
+    margin-right: 20px;
+    text-align: center;
+}
+
+.ProgressWrapper span {
+    color: #ffffff;
+    margin-right: 15px;
+}
+
+.ProfileFlexWrapper {
+    display: flex;
+    align-items: center;
+    margin-left: 25px;
+}
+
+.ProfileFlexWrapper .ProfilePhotoWrap {
+    margin-right: 20px;
+}
+
+.ProfileFlexWrapper .DeveloperName {
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.ProfileFlexWrapper .DeveloperProf {
+    font-size: 14px;
+    color: #9ea3b4;
+}
+
+.ProfilePhotoWrapper {
+    margin-right: 15px;
+}
+
+.StatusProject {
+    text-align: center;
+}
+
+.TimeSpent {
+    margin-left: 25px;
+}
+
+.react-bootstrap-table-page-btns-ul {
+    float: none!important;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+
+.page-link{
+    color:#ffffff;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.page-item:last-of-type{
+    display: none;
+}
+
+
+.AllProjectsBtn {
+    display: flex;
+    justify-content: center;
+    color: #fff;
+    font-size: 20px;
+    background: none;
+    border: none;
+}
+
+
+.pagination li {
+    padding: 10px;
+    border: 1px solid #9ea3b4!important;
+    background-color: #3a3e52;
+}
+
+.pagination:not(:nth-child(1)) {
+    border-left: none !important;
+}
+
+
+
+.page-item{
+    border: 1px solid transparent!important;
+}
+
+.page-item:focus{
+    outline: none;
+    box-shadow: none;
+}
+
+.pagination .active a{
+    color: #2196f3;
+}
+
+.pagination .active::after{
+    display: none;
+}
+
+.page-link:focus{
+    box-shadow: none!important;
+}
+
+.pagination li[title="next page"],.pagination li[title="previous page"], .pagination li[title="first page"], .pagination li[title="last page"]  {
+    border: none!important;
+    background: transparent;
+}
+
+.pagination li[title="next page"]>a , .pagination li[title="previous page"]>a, .pagination li[title="first page"]>a, .pagination li[title="last page"]>a {
+    color: #ffffff;
+    font-size: 18px;
+}
+
+
+
+
+/*.project-table {*/
+    /*padding:  30px*/
+/*}*/
+/*.table > tbody > tr > td, .table > tbody > tr > th, .table > tfoot > tr > td, .table > tfoot > tr > th, .table > thead > tr > td, .table > thead > tr > th*/
+/*vertical-align: middle*/
+/*tbody tr*/
+/*border-top:*/
+
+/*20*/
+/*px #2a2c3a solid*/
+/*font:*/
+
+/*$*/
+/*main-font*/
+    /*& .progress-0*/
+/*border-left:*/
+
+/*5*/
+/*px #fff solid*/
+    /*& .progress-mid*/
+/*border-left:*/
+
+/*5*/
+/*px #2196f3 solid*/
+    /*& .progress-100*/
+/*border-left:*/
+
+/*5*/
+/*px #4caf50 solid*/
+/*.table > thead > tr > th:first-child*/
+/*padding-left:*/
+
+/*45*/
+/*px*/
+/*.projectTitle-block*/
+/*padding-left:*/
+
+/*30*/
+/*px*/
+/*span*/
+/*font-weight:*/
+
+/*400*/
+/*color:*/
+
+/*$*/
+/*font-second-color*/
+/*.deadline-block*/
+/*span*/
+/*font-weight:*/
+
+/*400*/
+/*color:*/
+
+/*$*/
+/*font-second-color*/
+/*.progress-block*/
+/*display: flex*/
+/*p*/
+/*margin-right:*/
+
+/*10*/
+/*px*/
+/*.user-name-block*/
+/*display: flex*/
+/*align-items: center*/
+/*padding:*/
+
+/*1*/
+/*vmax*/
+/*.user-image*/
+/*border-radius:*/
+
+/*50*/
+/*%*/
+/*margin-right:*/
+
+/*25*/
+/*px*/
+/*position: relative*/
+/*.user-photo*/
+/*width:*/
+
+/*3.5*/
+/*vmax*/
+/*height:*/
+
+/*3.5*/
+/*vmax*/
+/*.user-main-info*/
+/*color: #fff*/
+/*span*/
+/*font-weight:*/
+
+/*400*/
+/*color:*/
+
+/*$*/
+/*font-second-color*/
+/*.button-block*/
+/*margin: auto*/
+/*border: none*/
+/*background: none*/
+/*font-size:*/
+
+/*1*/
+/*vmax*/
+/*display: flex*/
+/*justify-content: center*/
+/*padding:*/
+
+/*1.6*/
+/*vmax*/
+/*.react-bootstrap-table-page-btns-ul*/
+/*display: flex*/
+/*justify-content: center*/

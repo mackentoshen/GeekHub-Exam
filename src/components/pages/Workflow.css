@@ -1,0 +1,184 @@
+.Workflow-Page{
+    /*padding: 0 0 25px 0;*/
+    background: #2a2c3b;
+    max-width: 100%;
+    width: calc(100% - 60px);
+    min-height: calc(100vh - 60px);
+    margin-left: 60px;
+}
+
+.Workflow-Page::-webkit-scrollbar {
+    width: 20px;
+}
+
+.Workflow-Page::-webkit-scrollbar-thumb {
+    background: red;
+    border-radius: 10px;
+}
+
+.Workflow-Header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2480cd;
+    padding: 15px 25px;
+    min-height: 70px;
+    /*margin-bottom: 40px;*/
+}
+
+.Workflow-Content {
+    padding: 20px;
+}
+
+.Workflow-links {
+    display: flex;
+}
+
+/*.Workflow-links .ActiveWorkflowTab {*/
+    /*color: #fff;*/
+/*}*/
+
+.Workflow-links a {
+    color: #fff !important;
+    font: 400 16px/20px Montserrat, serif;
+    margin-right: 70px;
+    cursor: pointer;
+}
+
+.Workflow-links a:last-child {
+    margin-right: 0;
+}
+
+
+
+
+/*888888888888888888888888888888888888888888888*/
+
+.WorkflowPage {
+    /*padding: 20px 45px 100px 45px;*/
+    margin: 0;
+    max-width: 100%;
+    width: calc(100% - 20px);
+    min-height: calc(100vh - 281px);
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    transition: margin 450ms cubic-bezier(0.23, 1, 0.32, 1) 0ms;
+}
+
+.WorkflowPage article {
+    background-color: transparent !important;
+}
+
+/*.WorkflowPageActive {*/
+    /*margin-left: 320px;*/
+    /*width: calc(100% - 410px);*/
+/*}*/
+
+.Category, .CategoryCompleted {
+    color: #0e1a35;
+    font-size: 36px;
+    font-weight: 500;
+    line-height: 14px;
+    max-width: 460px;
+    width: 100%;
+    position: relative;
+    margin-bottom: 40px;
+}
+
+.Category::after {
+    position: absolute;
+    content: "";
+    width: 17px;
+    height: 27px;
+    /*background: url("../../assets/img/arrow-left.png") no-repeat;*/
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.Category span, .CategoryCompleted span {
+    color: #8492af;
+    font-size: 36px;
+    font-weight: 500;
+
+}
+
+.ToDoCategory, .ToDoInProgress, .ToDoCompleted {
+    margin-bottom: 40px;
+}
+
+.sc-bdVaJa::-webkit-scrollbar {
+    width: 10px;
+}
+
+.sc-bdVaJa::-webkit-scrollbar-track {
+    border-radius: 10px;
+    background-color: #9ea3b4;
+    opacity: 0.3;
+}
+
+.sc-bdVaJa::-webkit-scrollbar-thumb {
+    background: #2196f3;
+    border-radius: 10px;
+}
+
+.dJewwL {
+    background: transparent;
+}
+
+.ijaWEf {
+    max-width: 300px!important;
+    min-width: 0;
+}
+
+.lfgZPS {
+    max-width: 300px;
+    width: 300px;
+}
+
+.jHtXmx {
+    border-bottom: none;
+}
+
+/*.sc-bdVaJa {*/
+    /*flex-wrap: wrap;*/
+/*}*/
+
+/*
+    Responsive
+ */
+
+/*@media screen and (max-width: 1440px) {*/
+    /*.ToDoCategory {*/
+        /*max-width: 100%;*/
+        /*width: 100%;*/
+    /*}*/
+
+    /*.ToDoCategory p {*/
+        /*max-width: 100%;*/
+    /*}*/
+
+    /*.WorkflowPage .ToDoListItem {*/
+        /*width: calc(100% - 70px);*/
+    /*}*/
+
+    /*.ToDoInProgress {*/
+        /*max-width: 100%;*/
+        /*width: 100%;*/
+    /*}*/
+
+    /*.ToDoInProgress p {*/
+        /*max-width: 100%;*/
+    /*}*/
+
+    /*.ToDoCompleted {*/
+        /*max-width: 100%;*/
+        /*width: 100%;*/
+    /*}*/
+
+    /*.ToDoInProgress p {*/
+        /*max-width: 100%;*/
+    /*}*/
+
+/*}*/

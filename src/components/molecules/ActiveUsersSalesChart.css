@@ -1,0 +1,23 @@
+.Statistics-Chart{
+    border-bottom: 1px solid #dadee7;
+    height: 50%;
+    padding: 30px 35px 45px 35px;
+}
+
+.Statistics-Chart:last-of-type{
+    border-bottom: none;
+}
+
+.Statistics-Chart .Info h5{
+    font:700 36px/36px Roboto;
+    color:#8492af;
+    text-align: center;
+    width: 100%;
+}
+
+.Statistics-Chart .Info p{
+    font:400 20px/14px Roboto;
+    color:#8492af;
+    text-align: center;
+    width: 100%;
+}

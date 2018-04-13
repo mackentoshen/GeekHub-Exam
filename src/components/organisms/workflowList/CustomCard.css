@@ -1,0 +1,78 @@
+.CardItem {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+    border-radius: 5px;
+    background-color: #3a3e52;
+    margin-bottom: 15px;
+}
+
+/*.CardItem:hover {*/
+    /*box-shadow: 0 3px 9px #777;*/
+/*}*/
+
+.CardContent {
+    display: flex;
+    align-items: center;
+}
+
+.Title {
+    color: #fff;
+    font: 500 14px 'Montserrat', serif;
+    margin-bottom: 5px;
+}
+
+.WorkflowImage {
+    margin: 5px 10px;
+}
+
+.ToDoTitle {
+    color: #0e1a35;
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: .25px;
+    /*margin-bottom: 5px;*/
+}
+.ToDoTime {
+    color: #8492af;
+    font-size: 12px;
+    line-height: 14px;
+    margin-bottom: 5px;
+}
+
+.ToDoTimeDelay {
+    color: #f83c7b;
+    font-size: 10px;
+    line-height: 14px;
+    margin-bottom: 5px;
+}
+
+/*.ToDoTime::before {*/
+    /*content: "\f017";*/
+    /*display: inline-block;*/
+    /*font-family: 'FontAwesome', sans-serif;*/
+    /*margin-right: 5px;*/
+/*}*/
+
+/*.ToDoTimeDelay::before {*/
+    /*content: "\f017";*/
+    /*display: inline-block;*/
+    /*font-family: 'FontAwesome', sans-serif;*/
+    /*margin-right: 5px;*/
+/*}*/
+
+.ToDoComplete {
+    color: #00bf1b;
+    font-size: 10px;
+    line-height: 14px;
+    margin-bottom: 5px;
+
+}
+
+.ToDoComplete::before {
+    content: "\f058";
+    display: inline-block;
+    font-family: 'FontAwesome', sans-serif;
+    margin-right: 5px;
+}

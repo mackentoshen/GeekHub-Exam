@@ -1,0 +1,11 @@
+.PanelIcons{
+    display: flex;
+}
+
+.PanelIcons li{
+    margin-right: 20px;
+}
+
+.PanelIcons li:last-child{
+    margin-right: 0;
+}

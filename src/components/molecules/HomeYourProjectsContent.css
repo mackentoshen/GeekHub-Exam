@@ -1,0 +1,60 @@
+.ProjectsContent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 0;
+}
+
+.ProjectsContent img {
+    width: 30px;
+    height: 30px;
+    margin: 5px;
+}
+
+.ProjectsMainWrap {
+    /*display: flex;*/
+    overflow: auto !important;
+    height: 270px !important;
+}
+
+.ProjectsMainWrap::-webkit-scrollbar {
+    width: 0 !important;
+}
+
+.ProjectInfoBlock {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 10px 0;
+    border-bottom: 1px solid rgba(132, 146, 175, 0.3);
+}
+
+.ProjectInfoBlock img {
+    margin-left: 15px;
+}
+
+.ProjectTextWrap {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+.ProjectHeader p {
+    color: #ffffff;
+    font-family: Montserrat, serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0.32px;
+    margin-bottom: 3px;
+}
+
+.ProjectText {
+    font: 400 12px/14px Montserrat, serif;
+    color: #9da2b3;
+    margin-bottom: 0;
+}
+
+.ProjectText p {
+    margin-bottom: 0;
+}

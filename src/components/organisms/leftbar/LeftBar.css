@@ -1,0 +1,54 @@
+.LeftBarMenu {
+    position: fixed;
+    background: #2f3242;
+    min-height: calc(100vh - 60px);
+    max-width: 60px;
+    width: 100%;
+    float: left;
+    overflow: hidden;
+    box-shadow: 0 3px 80px rgba(158, 163, 180, 0.3);
+}
+
+.LeftBarNav li {
+    padding: 15px 0 20px 19px;
+    position: relative;
+
+}
+
+
+.LeftBarNav a {
+    font-family: 'Montserrat', serif;
+    font-size: 24px;
+    font-weight: 500;
+    text-decoration: none;
+    color: #757da4;
+}
+
+.active {
+    color: #ffffff !important;
+}
+
+.Chat:before {
+    position: absolute;
+    display: block;
+    content: "";
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: #5584ff;
+    border: 1px solid #fff;
+    text-align: center;
+    top: 27%;
+    right: 20%;
+    animation: 3s linear chatAnimation;
+}
+
+@keyframes chatAnimation {
+    0%, 95% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+

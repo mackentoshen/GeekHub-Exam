@@ -1,0 +1,54 @@
+.HomePageList li{
+    list-style: none;
+}
+
+.HomePageList-col{
+    border:1px solid #d4d9e3;
+    box-sizing: border-box;
+}
+
+.HomePageList-Item-Circle{
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    position: relative;
+}
+
+.HomePageList-Item-Circle span{
+    font:500 24px Roboto;
+    color:#fff;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%, -50%);
+}
+
+.HomePageList-Item-Circle-List li{
+    margin-right: 12px;
+}
+
+.HomePageList-Item-Circle-List li:last-child{
+    margin-right: 0;
+}
+
+
+.HomePageList-Item-Add{
+    background: #5384ff;
+}
+
+.HomePageList-Item-Error{
+    background: #f83c7b;
+}
+.HomePageList-Title{
+    font:500 24px/48px Roboto;
+    color:#0e1a35;
+}
+
+.HomePageList-Item-Header{
+    background: #fff;
+    padding: 20px 30px;
+}
+
+.HomePageList-ul{
+    margin-bottom: 0;
+}

@@ -1,0 +1,50 @@
+.HomePageList-Activity{
+    padding: 43px 33px 41px;
+    background: #fff;
+}
+
+.HomePageList-Activity:first-of-type{
+    border-top:1px solid #d4d9e3;
+}
+
+.HomePageList-Activity-Title{
+    font:500 14px/17px Roboto;
+    color:#0e1a35;
+    margin-bottom: 6px;
+}
+
+.HomePageList-Activity-Title span{
+    font-weight: 400;
+    color:#8492af;
+}
+
+.HomePageList-Activity-TimePost{
+    font:500 14px/17px Roboto;
+    color:#8492af;
+    margin-bottom: 0;
+}
+
+.HomePageList-Activity-TimePost .fa{
+    font-size: 20px;
+    margin-right: 4px;
+}
+
+.HomePage-Profile-AfterLine{
+    position: relative;
+    z-index: 100;
+}
+
+.HomePage-Profile-AfterLine::before{
+    content: '';
+    position: absolute;
+    width: 1px;
+    height: 133px;
+    background: #dadee7;
+    bottom: 0;
+    left: 23px;
+    z-index: -1;
+}
+
+.HomePage-Profile-AfterLine:first-of-type::before{
+    display: none;
+}

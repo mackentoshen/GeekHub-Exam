@@ -1,0 +1,19 @@
+.RaportPage{
+    background: #282a38;
+    max-width: 100%;
+    width: calc(100% - 60px);
+    min-height: calc(100vh - 60px);
+    margin-left: 60px;
+}
+
+.StatisticsChart-List{
+    margin-bottom: 40px;
+}
+
+.Statistics-List li{
+    margin-right: 30px;
+}
+
+.Statistics-List li:last-child{
+    margin-right: 0;
+}

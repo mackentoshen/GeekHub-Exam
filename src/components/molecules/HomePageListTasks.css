@@ -1,0 +1,48 @@
+.HomePageList-Item{
+    padding: 31px 34px;
+    background: #fff;
+    border-top:1px solid #d4d9e3;
+}
+
+.days-left{
+    font:14px Roboto;
+}
+
+.days-left .fa{
+    margin-right: 7px;
+    font-size: 20px;
+}
+
+.fa-clock-o{
+    transform: rotate(90deg);
+}
+
+.days-left-to_do{
+    color:#8492af;
+}
+
+.days-left-error{
+    color:#f83c7b;
+}
+
+.days-left-completed{
+    color:#00bf1b;
+}
+
+.HomePageList-Wrap {
+    width:47px;
+    height:47px;
+    border-radius: 50%;
+    background: #5584ff;
+    position: relative;
+    margin-right: 25px;
+}
+
+.HomePageList-Wrap span{
+    position: absolute;
+    top:50%;
+    left:50%;
+    color:#fff;
+    font:500 24px Roboto;
+    transform: translate(-50%, -50%);
+}

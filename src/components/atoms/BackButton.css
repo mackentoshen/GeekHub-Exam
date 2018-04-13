@@ -1,0 +1,19 @@
+.BackButton {
+    width: 18px;
+    height: 14px;
+    background: transparent;
+    position: relative;
+    border: none;
+}
+
+.BackButton::before {
+    position: absolute;
+    display: block;
+    content: "";
+    width: 18px;
+    height: 14px;
+    /*background: url("../../../assets/img/back-icon.png") no-repeat;*/
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

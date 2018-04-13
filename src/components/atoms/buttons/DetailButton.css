@@ -1,0 +1,8 @@
+.DetailButton {
+    margin-right: 10px;
+    width: 4px;
+    height: 16px;
+    border: none;
+    background: url("../../../assets/img/dots-vertical.png") no-repeat;
+
+}

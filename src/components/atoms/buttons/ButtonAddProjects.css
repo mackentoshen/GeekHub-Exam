@@ -1,0 +1,26 @@
+.AddProject {
+    position: relative;
+    background: transparent;
+    color: #fff;
+    width: 90px;
+    height: 30px;
+    border-radius: 24px;
+    border: 1px solid #2196f3;
+    font: 400 14px/21px Montserrat, serif;
+    letter-spacing: .25px;
+    margin-right: 50px;
+}
+
+.AddProject::after {
+    content: '+';
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #2196f3;
+    right: 10px;
+    font-size: 24px;
+}
+
+.AddProject:hover {
+    color: #2196f3;
+}

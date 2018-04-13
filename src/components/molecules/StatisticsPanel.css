@@ -1,0 +1,11 @@
+.StatisticsPanel{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.StatisticsPanel h4{
+    color: #8492af;
+    font-size: 36px;
+    font-weight: 700;
+}

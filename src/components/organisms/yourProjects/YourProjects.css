@@ -1,0 +1,22 @@
+.Your-Projects {
+    display: block;
+    min-height: 300px;
+    width: 100%;
+    background-color: #2d3040;
+    margin-bottom: 30px;
+}
+
+.Your-Projects-Header {
+    font: 700 16px/20px Montserrat, serif;
+    color: #fff;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #3a3e52;
+}
+
+.Your-Projects-Header p {
+    margin: 0;
+}
+

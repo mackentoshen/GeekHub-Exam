@@ -1,0 +1,28 @@
+.Inbox-Field {
+    /*display: block;*/
+    /*width: 100%;*/
+    /*min-height: 230px;*/
+    /*background-color: coral;*/
+    /*height: 380px;*/
+    max-height: 100%;
+    overflow: hidden;
+}
+
+.Inbox-header {
+    font: 700 14px Montserrat, serif;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3a3e52;
+}
+
+.Inbox-messages {
+    background-color: #2d3040;
+    overflow: auto;
+    height: 267px;
+}
+
+.Inbox-messages::-webkit-scrollbar {
+    width: 0;
+}

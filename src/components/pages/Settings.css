@@ -1,0 +1,8 @@
+.SettingsPage{
+    padding: 45px 45px 30px 45px;
+    background: #f6f6fa;
+    width: calc(100vw - 339px);
+    min-height: 100vh;
+    margin-left: 320px;
+    margin-top: 120px;
+}
